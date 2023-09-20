@@ -56,5 +56,6 @@ int main()
 {
 	NODE *list=NULL;
 	list=create(list);
+	disp(list);
     printf("MAximum no=%d",findmax(list));
 }
