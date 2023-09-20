@@ -31,6 +31,14 @@ struct node *create(struct node *list)
  }
  return list;
 }
+struct node *disp(struct node *list)
+{
+	struct node *temp;
+	for(temp=list;temp!=NULL;temp=temp->next)
+	{
+		printf("%d\t",temp->data);
+	}
+}
 int findmax(NODE *list)
 {
 	NODE *temp;
